@@ -1,21 +1,16 @@
 # 计算机视觉快速入门讲义
 
-这个项目主要是作者的学习笔记，是面向初学者的计算机视觉快速入门讲义。
+这个项目主要是**作者的学习笔记**，是面向初学者的**计算机视觉快速入门讲义**。
 
 写作目标不是罗列概念，也不是做论文式摘要，而是**像优秀老师讲课一样，把初学者真正带懂**。
 
-目前项目的重点放在两条主线：
+目前项目的重点放在三条主线：
 
 1. 从注意力机制到Transformer
 2. 从Transformer到Vision Transformer（ViT）
+3. 从ViT到层次化视觉Transformer变体（如 MViT、Swin Transformer）
 
 后续计划补齐CNN、目标检测、语义分割、多模态视觉等内容，使整套讲义更完整地覆盖计算机视觉入门所需的核心主线。
-
-## 适合读者
-
-- 想快速建立计算机视觉整体框架的初学者
-- 已经接触过一些深度学习，但对Transformer、ViT理解还不系统的读者
-- 希望用讲义而不是论文摘要方式来学习相关内容的读者
 
 ## 当前已完成内容
 
@@ -35,9 +30,19 @@
 - [ViT-5-Transformer Encoder主干.ipynb](./ViT-5-Transformer%20Encoder主干.ipynb)
 - [ViT-6-训练、特点与局限.ipynb](./ViT-6-训练、特点与局限.ipynb)
 
-## 计划中的整体目录
+### MViT
 
-下面是这套“计算机视觉快速入门讲义”建议采用的整体主线。
+- [MViT-1-核心思想与整体结构.ipynb](./MViT-1-核心思想与整体结构.ipynb)
+- [MViT-2-尺度变化机制.ipynb](./MViT-2-尺度变化机制.ipynb)
+
+### Swin Transformer
+
+- [Swin Transformer-1-核心处理机制.ipynb](./Swin%20Transformer-1-核心处理机制.ipynb)
+- [Swin Transformer-2-整体框架.ipynb](./Swin%20Transformer-2-整体框架.ipynb)
+- [Swin Transformer-3-完整流程.ipynb](./Swin%20Transformer-3-完整流程.ipynb)
+- [Swin Transformer-4-学习Swin时最该抓住的几个点.ipynb](./Swin%20Transformer-4-学习Swin时最该抓住的几个点.ipynb)
+
+## 计划中的整体目录
 
 ### 第一部分：图像与视觉基础
 
@@ -82,20 +87,5 @@
 3. 生成式视觉模型与扩散模型
 4. 视觉大模型基础
 
-## 项目文件说明
-
-- [讲义写作规范.md](./讲义写作规范.md)：后续讲义统一遵循的写作规范
-- `test.md`：过程性文件，不属于正式讲义主线
-
-## 写作特点
-
-- 强调问题驱动，而不是上来直接堆公式
-- 强调直觉、例子、结构和公式之间的过渡
-- 主动补充初学者最容易卡住的隐含前提
-- 需要图示的地方会提供单独的绘图提示词
-
-## 说明
-
-这套讲义目前仍在持续补写中。现阶段最完整的部分是Transformer与ViT主线，后续会继续补齐CNN和更完整的计算机视觉任务体系。
 
 
